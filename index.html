@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="goodhotelclub">
+
+        <meta name="description" content="goodhotelclub |  2022 Deals - Best Deals on  and other hotels in , 2022 lowest prices">
+        <script src="https://accounts.google.com/gsi/client" async defer></script>
+        <link rel="icon" type="image/svg" sizes="32x32" href="/static/img/sites/goodhotelclub/favicon-32x32.a8da18ab9d5e.png">
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-53M46SM');</script>
+        <!-- End Google Tag Manager -->
+
+        
+
+
+<link rel="stylesheet" href="./Css/vendor.b546154ec224.css" type="text/css">
+<link rel="stylesheet" href="./Css/style.eb1fe444c538.css" type="text/css">
+<link rel="stylesheet" href="./Css/custom.14030c817f8e.css" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+
+
+<script type="text/javascript" src="./Js/default_styles-2db650031bc49470d36d.fc1a363b0f16.js" ></script>
+<!-- <link rel="stylesheet" href="/static/autogen/css/sites/goodhotelclub/default.css" type="text/css"> -->
+
+
+
+<!--
+    Combined
+<link href="/static/fonts/font-awesome.2c4149e6aead.css" rel="stylesheet" type="text/css">
+<link href="/static/fonts/elegant-fonts.8ac64698ebc1.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.cdnfonts.com/css/manrope" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+<link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap.1a4f2e51d52a.css" type="text/css">
+<link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap-pincode-input.e1b491236b18.css" type="text/css">
+<link rel="stylesheet" href="/static/vendor/bootstrap-social.0b531dc92d35.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/css/intlTelInput.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" type="text/css">
+
+-->
+<!--
+    Not Used
+<link rel="stylesheet" href="/static/vendor/slick/slick.f38b2db10e01.css">
+<link rel="stylesheet" href="/static/vendor/slick/slick-theme.f33c063e4ec3.css">
+<link rel="stylesheet" href="/static/vendor/mapbox/mapbox-gl.0ab6c2651d10.css">
+<link rel="stylesheet" href="/static/vendor/mapbox/mapbox-gl-geocoder.fd56afcde508.css" type="text/css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+-->
+        <style type="text/css">
+	.stars-container {
+	  position: relative;
+	  display: inline-block;
+	  color: transparent;
+	}
+
+	.stars-container:before {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  content: '★★★★★';
+	  color: white;
+	}
+
+	.stars-container:after {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  content: '★★★★★';
+	  color: gold;
+	  overflow: hidden;
+	}
+
+	.stars-0:after { width: 0%; }
+	.stars-10:after { width: 10%; }
+	.stars-20:after { width: 20%; }
+	.stars-30:after { width: 30%; }
+	.stars-40:after { width: 40%; }
+	.stars-50:after { width: 50%; }
+	.stars-60:after { width: 60%; }
+	.stars-70:after { width: 70%; }
+	.stars-80:after { width: 80%; }
+	.stars-90:after { width: 90%; }
+	.stars-100:after { width: 100; }
+</style>
+
+<script type="text/javascript">
+	function addScore(score, $domElement) {
+	    $("<span class='stars-container'>")
+	      .addClass("stars-" + score.toString())
+	      .text("★★★★")
+	      .appendTo($domElement);
+	  }
+</script>
+        
+        <style>
+            body {
+                background-color: #ffffff;
+            }
+            .always-wrap {
+              /* These are technically the same, but use both */
+              overflow-wrap: break-word;
+              word-wrap: break-word;
+
+              -ms-word-break: break-all;
+              /* Instead use this non-standard one: */
+              word-break: break-word;
+
+              /* Adds a hyphen where the word breaks, if supported (No Blink) */
+              -ms-hyphens: auto;
+              -moz-hyphens: auto;
+              -webkit-hyphens: auto;
+              hyphens: auto;
+
+            }
+            .hidden {
+                display:none;
+            }
+            .disabled .hideDisabled {
+                display: none;
+            }
+            .disabled .showDisabled {
+                display: block;
+            }
+            .showDisabled {
+                display: none;
+            }
+            .show-mobile-only {
+                display: none !important;
+            }
+            @media (max-width: 750px){
+                .show-mobile-only {
+                    display: inherit;
+                }
+            }
+            .Body-Copy-10-bold{
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: bold;
+                font-size: 10px;
+                line-height: 14px;
+            }
+            .Body-Copy-10-medium{
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: 500;
+                font-size: 10px;
+                line-height: 14px;
+            }
+            .Body-Copy-10-extrabold{
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: 800;
+                font-size: 10px;
+                line-height: 14px;
+                color: #343B53;
+            }
+            .Body-Copy-10-regular {
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 14px;
+            }
+            .Body-Copy-09-bold{
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 16px;
+                color: #343B53;
+            }
+            .Body-Copy-09-medium{
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 16px;
+                color: #343B53;
+            }
+            .Body-Copy-08-bold {
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 19px;
+            }
+            .Body-Copy-08-medium {
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 19px;
+            }
+            .Body-Copy-07-bold{
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 22px;
+            }
+            .Body-Copy-07-medium{
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+            }
+            .Body-Copy-06-bold {
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 25px;
+            }
+            .Body-Copy-05-bold {
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 25px;
+            }
+            .Body-Copy-09-semibold{
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 16px;
+            }
+            .Body-Copy-07-medium{
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 22px;
+
+                color: #141D38;
+            }
+            .Body-Copy-08-semibold{
+                /* font-family: Manrope; */
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 19px;
+            }
+            .hotel-star {
+                color: #FFD12D;
+            }
+            #content .mobile-box {
+                border-bottom: 10px solid #DFE0E1;
+                margin-left: -15px;
+                margin-right: -15px;
+            }
+            /* Autofill hacks */
+            input:not(.no-autofill-active):-webkit-autofill,
+            input:not(.no-autofill-active):-webkit-autofill:hover,
+            input:not(.no-autofill-active):-webkit-autofill:focus,
+            input:not(.no-autofill-active):-webkit-autofill:active{
+                -webkit-box-shadow: 0 0 0 30px white inset !important;
+            }
+
+        </style>
+
+        
+
+
+<link href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css" rel="stylesheet" />
+
+<script type="text/javascript" src="./Js/home_css-2db650031bc49470d36d.c6a8ff375eec.js" ></script>
+
+<style>
+    .truncate-overflow-2-lines {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+</style>
+
+        
+        
+
+        
+<title>goodhotelclub</title>
+
+        
+
+<script>
+    var _rollbarConfig = {
+        accessToken: "cebc480afb2649c99cc18d1df91eba05",
+        captureUncaught: true,
+        captureUnhandledRejections: true,
+        payload: {
+            environment: "production"
+        },
+        checkIgnore: function(isUncaught, args, payload) {
+            var regex = /Baiduspider|Googlebot|Bingbot|Slurp|DuckDuckBot|YandexBot|Sogou|Exabot|facebot|ia_archiver|AdsBot-Google/;
+            if (window.navigator.userAgent && regex.exec(window.navigator.userAgent)) {
+                // ignore bots
+                return true;
+            }
+            // no other ignores
+            return false;
+        }
+    };
+    // Rollbar Snippet
+    !function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){"use strict";var n=o(1),t=o(5);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdn.rollbar.com/rollbarjs/refs/tags/v2.23.0/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){"use strict";var n=o(2),t=o(3);function a(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var l=0;function i(r,e){this.options=r,this._rollbarOldOnError=null;var o=l++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var s=o(4),d=function(r,e){return new i(r,e)},c=function(r){return new s(d,r)};function u(r){return a((function(){var e=this,o=Array.prototype.slice.call(arguments,0),n={shim:e,method:r,args:o,ts:new Date};window._rollbarShims[this.shimId()].messages.push(n)}))}i.prototype.loadFull=function(r,e,o,n,t){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=a((function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,a,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(a=n.args||[],i=0;i<a.length;++i)if("function"==typeof(l=a[i])){l(e);break}}"function"==typeof t&&t(e)}()}})),d.insertBefore(i,s)},i.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),f=0;f<p.length;++f)i.prototype[p[f]]=u(p[f]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var l=new c(e);return a((function(){e.captureUncaught&&(l._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,l,!0),e.wrapGlobalEventHandlers&&t(r,l,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,l,!0);var a=e.autoInstrument;return!1!==e.enabled&&(void 0===a||!0===a||"object"==typeof a&&a.network)&&r.addEventListener&&(r.addEventListener("load",l.captureLoad.bind(l)),r.addEventListener("DOMContentLoaded",l.captureDomContentLoaded.bind(l))),r[o]=l,l}))()}},Rollbar:c}},function(r,e,o){"use strict";function n(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var t;if("function"==typeof e._rollbarOldOnError)t=e._rollbarOldOnError;else if(r.onerror){for(t=r.onerror;t._rollbarOldOnError;)t=t._rollbarOldOnError;e._rollbarOldOnError=t}e.handleAnonymousErrors();var a=function(){var o=Array.prototype.slice.call(arguments,0);n(r,e,t,o)};o&&(a._rollbarOldOnError=t),r.onerror=a}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}}},function(r,e,o){"use strict";function n(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports=function(r,e,o){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&n(e,r[a].prototype,o)}}},function(r,e,o){"use strict";function n(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(n.prototype)}n.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=n},function(r,e,o){"use strict";r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);
+    // End Rollbar Snippet
+</script>
+
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53M46SM"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <div class="page-wrapper">
+            
+            
+            <div id="page-content">
+                
+
+<div id="g_id_onload" data-client_id="424779290851-qcemm68a3nt2g9smnogm53h8i8in6rf7.apps.googleusercontent.com" data-context="signin"
+    data-login_uri="/auth/google_one_tap_login/" data-skip_prompt_cookies="sid" data-auto_select="false">
+</div>
+
+<script id="initial-region" type="application/json">""</script>
+<script id="is_member" type="application/json">false</script>
+<script id="top_destinations" type="application/json">[{"name": "Austin", "image": "6638_mitchell-kmetz_small.jpg", "author": "Mitchell Kmetz", "primary_region_id": 460}, {"name": "Chicago", "image": "5168_pedro-lastra_small.jpg", "author": "Pedro Lastra", "primary_region_id": 829}, {"name": "Dallas", "image": "3521_gabriel-tovar_small.jpg", "author": "Gabriel Tovar", "primary_region_id": 1000}, {"name": "Hawaii - Oahu", "image": "honolulu_samantha-sophia_small.jpg", "author": "Samantha Sophia", "primary_region_id": 11867}, {"name": "Houston", "image": "4646_rome-wilkerson_small.jpg", "author": "Rome Wilkerson", "primary_region_id": 1503}, {"name": "Las Vegas", "image": "5019_voo-qqq_small.jpg", "author": "VOO QQQ", "primary_region_id": 2008}, {"name": "London", "image": "2966_marcin-nowak_small.jpg", "author": "Marcin Nowak", "primary_region_id": 2114}, {"name": "Los Angeles", "image": "2075_shea-rouda_small.jpg", "author": "Shea Rouda", "primary_region_id": 2011}, {"name": "Miami", "image": "5397_ashley-satanosky_small.jpg", "author": "Ashley Satanosky", "primary_region_id": 2297}, {"name": "New Orleans", "image": "3176_mana5280_small.jpg", "author": "mana5280", "primary_region_id": 2434}, {"name": "New York", "image": "1417_luca-bravo_small.jpg", "author": "Luca Bravo", "primary_region_id": 2621}, {"name": "Orlando", "image": "2549_colin-lloyd_small.jpg", "author": "Colin Lloyd", "primary_region_id": 2693}, {"name": "Paris", "image": "3604_anthony-delanoix_small.jpg", "author": "Anthony DELANOIX", "primary_region_id": 2734}, {"name": "Philadelphia", "image": "3682_actionvance_small.jpg", "author": "ActionVance", "primary_region_id": 2786}, {"name": "Rome", "image": "1698_caleb-miller_small.jpg", "author": "Caleb Miller", "primary_region_id": 3023}, {"name": "San Antonio", "image": "6664_eric-francis_small.jpg", "author": "Eric Francis", "primary_region_id": 3077}, {"name": "San Diego", "image": "6667_clayton-cardinalli_small.jpg", "author": "Clayton Cardinalli", "primary_region_id": 3073}, {"name": "San Francisco", "image": "6758_joonyeop-baek_small.jpg", "author": "Joonyeop Baek", "primary_region_id": 3132}, {"name": "Seattle", "image": "6734_timothy-eberly_small.jpg", "author": "Timothy Eberly", "primary_region_id": 3121}, {"name": "Washington D.C.", "image": "4815_caleb-perez_small.jpg", "author": "Caleb Perez", "primary_region_id": 3763}]</script>
+<script id="data_segments" type="application/json">[{"code": "100", "description": "Hotels with charm"}, {"code": "102", "description": "Green Hotel"}, {"code": "103", "description": "Only adults"}, {"code": "104", "description": "Pet friendly Hotels"}, {"code": "116", "description": "Gay Friendly"}, {"code": "31", "description": "Design"}, {"code": "34", "description": "Business hotels"}, {"code": "36", "description": "Golf hotels"}, {"code": "37", "description": "Beach hotels"}, {"code": "39", "description": "Hotels with spa"}, {"code": "42", "description": "Historical"}, {"code": "43", "description": "Ski hotels"}, {"code": "44", "description": "Rural hotels"}, {"code": "45", "description": "Sport hotels"}, {"code": "81", "description": "Family hotels"}]</script>
+<script id="data_price_ranges" type="application/json">[{"id": "1", "from": 0, "to": 75}, {"id": "2", "from": 75, "to": 125}, {"id": "3", "from": 125, "to": 200}, {"id": "4", "from": 200, "to": 300}, {"id": "5", "from": 300}]</script>
+<script id="data_accommodations" type="application/json">""</script>
+<script id="user_choices" type="application/json">""</script>
+<script id="map-libre-token" type="application/json">"767d0522f3454450a4d3b1bbd506e05e"</script>
+
+
+<div id="landing-content" class="home" v-cloak :style="cssVars">
+
+    <!-- <button @click="regionCenterPlusBboxSearch">REGION CENTER + DEF ZOOM</button> -->
+    <transition-modal ref="destination-modal" class="leftSidebarModal" :show_close_button="false">
+        <template v-slot:body="slotProps">
+            <div class="control_panel" style='min-width:40vw;'>
+                <div class="d-flex align-items-center control_panel_header GFont_4_500">
+                    <div @click="closeModal('destination-modal')">&#x2190;</div>
+                    <div style="flex-grow:1">Search</div>
+                    <div @click="clearDestination">Clear</div>
+                </div>
+                <div class="control_panel_body" style="padding:0px;">
+                    <div style='background-color:white;min-height:65vh;' class="sp-container-autocomplete">
+                        <region-selector 
+                            :key="autocompleteMobileKey" 
+                            :autofocus="slotProps.is_open"
+                            @destination-changed="onDestinationChange"
+                            @search-started="onSearchStarted" 
+                            @next-search="startProximitySearch"
+                            :window-width="windowWidth"
+                            />
+                    </div>
+                </div>
+            </div>
+        </template>
+    </transition-modal>
+    <transition-modal ref="calendar-modal" class="leftSidebarModal" :show_close_button="false">
+        <template slot="body">
+            <div class="control_panel">
+                <div class="d-flex align-items-center control_panel_header GFont_4_500">
+                    <div @click="closeModal('calendar-modal')">&#x2190;</div>
+                    <div style="flex-grow:1">Check In - Check Out</div>
+                </div>
+                <div class="control_panel_body" style="overflow:scroll;padding:0px">
+                    <calendar-without-picker :start-date="startDate"
+                        :end-date="endDate" @dates-changed="onDatesChange" @cancel-changes="closeModal('calendar-modal')">
+                    </calendar-without-picker>
+                </div>
+            </div>
+        </template>
+    </transition-modal>
+    <transition-modal ref="accommodation-modal" class="leftSidebarModal" :show_close_button="false">
+        <template slot="body">
+            <div class="control_panel">
+                <div class="d-flex align-items-center control_panel_header GFont_4_500">
+                    <div @click="closeModal('accommodation-modal')">&#x2190;</div>
+                    <div style="flex-grow:1">Rooms and guests</div>
+                    <div @click="clearAccommodation">Clear</div>
+                </div>
+                <div class="control_panel_body">
+                    <div style='min-height:65vh;'>
+                        <accommodation-input @done-clicked="closeModal('accommodation-modal')"
+                            :key="accommodationMobileKey" @accommodation-changed="onAccommodationChange"
+                            :paxes="$store.state.hotelSearch.userChoices.paxes">
+                        </accommodation-input>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </transition-modal>
+  
+    <transition-modal ref="filter-modal" @close_modal="closed_filter_modal" :show_close_button="false"
+        class="leftSidebarModal">
+        <template slot="body">
+            <div class="control_panel">
+                <div class="d-flex align-items-center control_panel_header GFont_4_500">
+                    <div @click="closeModal('filter-modal')">&#x2190;</div>
+                    <div style="flex-grow:1">Filter MOBILE</div>
+                    <div @click="clearFilters">Clear MOBILE</div>
+                </div>
+                <div class="control_panel_body">
+                    <div class="sort_by_dropdown">
+                        <legend class="GFont_5_Semibold">Sort By</legend>
+                        <v-select placeholder="Sort By" label="name" :filterable="true" :clearable="false"
+                            :options="orders" @input="onSortByChange" v-model="orderBy">
+                        </v-select>
+                    </div>
+                    <hotel-list-filters title="Star Rating" :list-of-options="availableOptionsGetter('stars')"
+                        filter-name="stars" name-of-value-option="code" @option-clicked="filterOptionsClicked">
+                    </hotel-list-filters>
+
+
+                    <hotel-list-filters title="Amenities" :list-of-options="availableOptionsGetter('amenities')"
+                        filter-name="amenities" name-of-value-option="code" @option-clicked="filterOptionsClicked">
+                    </hotel-list-filters>
+                    <hotel-list-filters title="Budget" :list-of-options="availableOptionsGetter('budget')"
+                        filter-name="budget" name-of-value-option="code" @option-clicked="filterOptionsClicked">
+                    </hotel-list-filters>
+
+                    <hotel-list-filters title="Segments" :list-of-options="availableOptionsGetter('segments')"
+                        filter-name="segments" name-of-value-option="code" @option-clicked="filterOptionsClicked">
+                    </hotel-list-filters>
+
+                    <hotel-list-filters title="Accommodation Type"
+                        :list-of-options="availableOptionsGetter('accommodation_type')" filter-name="accommodation_type"
+                        name-of-value-option="name" @option-clicked="filterOptionsClicked">
+                    </hotel-list-filters>
+                    <br>
+                    <div class="search-button-mobile" @click="closeModal('filter-modal')">
+                        <button id="update-search-button">UPDATE SEARCH</button>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+        </template>
+    </transition-modal>
+    <!-- end modals -->
+    <!-- Top Search Form -->
+    <transition name="slide-up">
+        <div class="container-main-form" v-if="!state.firstLoadingHotels" :class="{'search-started': state.searchStarted}">
+            <div id="landing-search" method="get" @submit="submitSearchForm" action="/search/"
+                ref="searchForm" class="container mx-auto">
+                <transition name="slide-down-slow" appear>
+                   
+                </transition>
+                <div id="main-form" class="GFont_5" v-cloak :class="{'search-started': state.searchStarted}">
+                    <template v-if="windowWidth < 992">
+                        <transition name="slide-down" appear>
+                            <div style="width:100%; padding:20px;position:relative" v-if="state.showSearchForm">
+                                <div v-if="Number($store.state.hotelSearch.search.page) > 1"
+                                class="closed-form-button GFont_8" @click="state.showSearchForm=false">
+                                    <i class="fa fa-times fa-lg"></i>
+                                </div>
+                                <div class="form-element mb-4 mt-4" @click="openModal('destination-modal')">
+                                    <div class="form-element__icon">
+                                        <i class="fa fa-search fa-lg"></i>
+                                    </div>
+                                    <div class="form-element__content truncate-overflow-2-lines">
+                                        <% selectedDestinationName %>
+                                    </div>
+                                </div>
+                                <div class="form-element mb-4">
+                                    <div class="form-element__icon">
+                                        <i class="fa fa-calendar fa-lg"></i>
+                                    </div>
+                                    <div class="form-element__title_content_container">
+                                        <div class="form-element__content">
+                                            <div class="form-element__content" @click="openModal('calendar-modal')">
+                                                <div class="form-element__title  GFont_8">
+                                                    Check In / Check Out
+                                                </div>
+                                                <div class="form-element__content">
+                                                    <% this.startDate | date %> - <% this.endDate | date %>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-element mb-4" @click="openModal('accommodation-modal')">
+                                    <div class="form-element__icon">
+                                        <i class="fa fa-user fa-lg"></i>
+                                    </div>
+                                    <div class="form-element__title_content_container">
+                                        <div class="form-element__title GFont_8">
+                                            Rooms and guests
+                                        </div>
+                                        <div class="form-element__content">
+                                            <% selectedData.accommodation.length %>
+                                                <% $tc("room", selectedData.accommodation.length) %>, <% totalGuestsNumber%>
+                                                        <% $tc("guest", totalGuestsNumber) %>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="search-button-mobile" style="border: none;">
+                                    <button id="search-button" @click="searchHotelsByButtonSearch"
+                                    :disabled="$store.state.hotelSearch.userChoices.region_id === 0 || $store.state.hotelSearch.userChoices.region_id === undefined"
+                                    >SEARCH</button>
+                                </div>
+                            </div>
+                        </transition>
+                        <transition name="slide-up" appear>
+                            <div class="search-summary-container" v-if="!state.showSearchForm">
+                                <a href="#" @click.prevent="toggleShowSearchForm" style="display: block;">
+                                    <div class="form-element" style="height:80px">
+                                        <div class="form-element__icon">
+                                            <i class="fa fa-search fa-lg"></i>
+                                        </div>
+                                        <div class="form-element__content">
+                                            <div><% selectedDestinationName %></div>
+                                            <div class="GFont_8 d-flex">
+                                                <div class="mr-3 search-param">
+                                                    <% this.startDate | date %> - <% this.endDate | date %>
+                                                </div>
+                                                <div class="search-param">
+                                                    <% selectedData.accommodation.length %> <% $tc("room", selectedData.accommodation.length) %>, <% totalGuestsNumber%>
+                                                    <% $tc("guest", totalGuestsNumber) %>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </transition>
+                        <!-- Modal Filter & Maps buttons -->
+                        <div class="d-flex align-items-center mobile_filter_map_menu justify-content-around" v-if="windowWidth<1200 && state.searchStarted && !state.firstLoadingHotels">
+                            <a class="search-filter-btn GFont_5 d-flex align-items-center justify-content-center"
+                                v-on:click="showExpandFilter">
+                                <svg class="icon-filter">
+                                    <use xlink:href="/static/autogen/img/sprite.svg#filter"></use>
+                                </svg>
+                                <div>Sort &amp; Filter</div>
+                            </a>
+                            <a class="view-map-btn GFont_5 d-flex align-items-center justify-content-center"
+                                v-on:click="toggleMapMode">
+                                <svg class="icon-map">
+                                    <use xlink:href="/static/autogen/img/sprite.svg#map"></use>
+                                </svg>
+                                <div>
+                                    <span v-if="!mapOnScreen">View in a map</span>
+                                    <span v-else>Hide map</span>
+                                </div>
+                            </a>
+                        </div>
+                    </template>
+                    <template v-else>
+                        <div class="form-element-autocomplete">
+                            <div class="sp-container-autocomplete">
+                                <region-selector @destination-changed="onDestinationChange"
+                                    :autofocus="!initial_region"
+                                    @search-started="onSearchStarted" 
+                                    @nextsearch="nextToMeSearch"/>
+                            </div>
+                        </div>
+                        <transition name="slide-right">
+                            <div class="d-flex slide-container" v-if="!this.state.expandSearchField">
+                                <div class="form-element field-container">
+                                    <div class="form-element__icon mr-2">
+                                        <i class="fa fa-calendar fa-lg"></i>
+                                    </div>
+                                    <div class="form-element__title_content_container">
+                                        <div class="form-element__content">
+                                            <calendar :start-date="startDate"
+                                                :end-date="endDate" @dates-changed="onDatesChange">
+                                            </calendar>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-element field-container" v-click-outside="closeAccommodationDropdown"
+                                    @click="state.accommodationDropdownOpen = true">
+                                    <div class="form-element__icon mr-2">
+                                        <i class="fa fa-user fa-lg"></i>
+                                    </div>
+
+                                    <div class="form-element__title_content_container">
+                                        <div class="form-element__title GFont_8">
+                                            Rooms and guests
+                                        </div>
+                                        <div class="form-element__content">
+                                            <% selectedData.accommodation.length %>
+                                                <% $tc("room", selectedData.accommodation.length) %>, <%
+                                                        totalGuestsNumber %>
+                                                        <% $tc("guest", totalGuestsNumber) %>
+                                        </div>
+                                    </div>
+
+                                    <div class="accommodation-dropdown-menu dropdown-menu"
+                                        :class="{'dropdown-menu_open': state.accommodationDropdownOpen}">
+                                        <accommodation-input @done-clicked="closeAccommodationDropdown"
+                                            @accommodation-changed="onAccommodationChange" :paxes="$store.state.hotelSearch.userChoices.paxes">
+                                        </accommodation-input>
+                                    </div>
+                                </div>
+                                <div class="form-element search-button-desktop" style="border: none;">
+                                    <button id="search-button" @click="searchHotelsByButtonSearch"
+                                    :disabled="$store.state.hotelSearch.userChoices.region_id === 0 || $store.state.hotelSearch.userChoices.region_id === undefined"
+                                    >SEARCH</button>
+                                    
+                                </div>
+                            </div>
+                        </transition>
+                    </template>
+                </div>
+                <!-- Modal Filter & Maps buttons -->
+                <!-- <div class="d-flex align-items-center mobile_filter_map_menu justify-content-around"
+                    v-if="windowWidth<1200 && state.searchStarted && !state.firstLoadingHotels">
+                    <a class="search-filter-btn GFont_5 d-flex align-items-center justify-content-center"
+                        v-on:click="showExpandFilter">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 7L20 7" stroke-width="2" stroke-linecap="round" />
+                            <path d="M4 7L8 7" stroke-width="2" stroke-linecap="round" />
+                            <path d="M17 17L20 17" stroke-width="2" stroke-linecap="round" />
+                            <path d="M4 17L12 17" stroke-width="2" stroke-linecap="round" />
+                            <circle cx="10" cy="7" r="2" transform="rotate(90 10 7)" stroke-width="2"
+                                stroke-linecap="round" />
+                            <circle cx="15" cy="17" r="2" transform="rotate(90 15 17)" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                        <div>Sort &amp; Filter</div>
+                    </a>
+                    <a class="view-map-btn GFont_5 d-flex align-items-center justify-content-center"
+                        v-on:click="toggleMapMode">
+                        <svg class="map-icon" width="20" height="18" viewBox="0 0 20 18" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.447 3.10498L13.447 0.104984C13.3081 0.035463 13.1549 -0.000732422 12.9995 -0.000732422C12.8441 
+                                    -0.000732422 12.6909 0.035463 12.552 0.104984L7 2.88198L1.447 0.104984C1.2945 0.0287808 1.12506 -0.00717147 0.954757 
+                                    0.000541449C0.784455 0.00825437 0.618953 0.0593763 0.473969 0.149052C0.328985 0.238727 0.209334 0.363979 0.126379 
+                                    0.51291C0.0434244 0.661842 -7.93497e-05 0.829508 1.08651e-07 0.999984V14C1.08651e-07 14.379 0.214 14.725 0.553 14.895L6.553 
+                                    17.895C6.69193 17.9645 6.84515 18.0007 7.0005 18.0007C7.15585 18.0007 7.30907 17.9645 7.448 17.895L13 15.118L18.553 17.894C18.7051 17.9709 
+                                    18.8744 18.0074 19.0446 17.9998C19.2149 17.9923 19.3803 17.941 19.525 17.851C19.82 17.668 20 17.347 20 17V3.99998C20 3.62098 19.786 3.27498 19.447 
+                                    3.10498ZM8 4.61798L12 2.61798V13.382L8 15.382V4.61798ZM2 2.61798L6 4.61798V15.382L2 13.382V2.61798ZM18 15.382L14 13.382V2.61798L18 4.61798V15.382Z" />
+                        </svg>
+                        <div>
+                            <span v-if="!mapOnScreen">View in a map</span>
+                            <span v-else>Hide map</span>
+                        </div>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </transition>
+
+
+
+    <!-- Hotel Results Container -->
+    <div id='searchContainer' class="" v-if="state.searchStarted">
+        <div class="top-search-form">
+
+        </div>
+        <div id='resultsContainer' v-if='!state.firstLoadingHotels' class="d-flex container" style="margin-top: 14px;">
+
+            <!-- Left Sidebar -->
+            <div id='leftSidebar' style='width:295px' v-if="windowWidth > 991">
+                <transition name="slide-right" appear>
+                    <div class='filters-sidebar'>
+                        <!-- Show on map control -->
+                        <div class="control_panel map_mode_control">
+                            <div class="control_panel_body" style="padding: 0px;">
+                                <a v-on:click="toggleMapMode" class="cursor-pointer">
+                                    <div>
+                                        <img src="/static/img/show_on_map.f68ede3e2f72.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="GFont_5 text_label" style="height: 53px;">
+                                        <span v-if="!mapOnScreen">Show on map</span>
+                                        <span v-else>Hide map</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="control_panel">
+                            <div class="control_panel_body">
+                                <div class="sort_by_dropdown">
+                                    <legend class="GFont_5_Semibold">Sort By</legend>
+                                    <v-select placeholder="Sort By" label="name" :filterable="true" :clearable="false"
+                                        :options="orders" @input="onSortByChange" v-model="orderBy">
+                                    </v-select>
+                                </div>
+                                <hotel-list-filters title="Star Rating"
+                                    :list-of-options="availableOptionsGetter('stars')" filter-name="stars"
+                                    name-of-value-option="code" @option-clicked="filterOptionsClicked">
+                                </hotel-list-filters>
+                                <hotel-list-filters title="Amenities"
+                                    :list-of-options="availableOptionsGetter('amenities')" filter-name="amenities"
+                                    name-of-value-option="code" @option-clicked="filterOptionsClicked">
+                                </hotel-list-filters>
+                                <hotel-list-filters title="Segments"
+                                    :list-of-options="availableOptionsGetter('segments')" filter-name="segments"
+                                    name-of-value-option="code" @option-clicked="filterOptionsClicked">
+                                </hotel-list-filters>
+                                <hotel-list-filters title="Budget" :list-of-options="availableOptionsGetter('budget')"
+                                    filter-name="budget" name-of-value-option="code"
+                                    @option-clicked="filterOptionsClicked">
+                                </hotel-list-filters>
+                                <hotel-list-filters title="Accommodation Type"
+                                    :list-of-options="availableOptionsGetter('accommodation_type')"
+                                    filter-name="accommodation_type" name-of-value-option="name"
+                                    @option-clicked="filterOptionsClicked">
+                                </hotel-list-filters>
+                            </div>
+                        </div>
+                    </div>
+                </transition>
+            </div>
+
+            <!-- Search Results Section -->
+            <div id='resultsWindow' style="flex-grow: 1;">
+                <transition name="slide-left" appear>
+                    <div v-show="!mapOnScreen">
+                        <hotel-list-view 
+                        :window-width="windowWidth"
+                        @remapmarkers="remapMarkers"
+                        />
+                    </div>
+
+                </transition>
+                <transition name="slide-left" appear>
+                    <!-- changed FROM v-if TO v-show because we need hotel-list-map always mounted-->
+                    <div v-show="mapOnScreen">
+                        <!-- $store.state.hotelSearch.search.hotels.length>0 &&  -->
+                    
+                        <!-- <template v-if='!state.firstLoadingHotels'> -->
+                            
+                                <hotel-list-map ref="mapcomponent" @newsearch="onNewSearch" 
+                                    :zoom="$store.state.hotelSearch.search.zoom"
+                                    :hotel-list-props="$store.state.hotelSearch.search.hotels"
+                                    :lat-center="Number($store.state.hotelSearch.userChoices.lat)"
+                                    :lng-center="Number($store.state.hotelSearch.userChoices.lng)" 
+                                    :selected-currency="selectedCurrency"
+                                    :access-token="accessToken">
+                                </hotel-list-map>
+                            
+                        <!-- </template>
+                        <template v-else>
+                            <loading-bars />
+                        </template>
+                     -->
+             
+                    
+                    </div>
+
+                </transition>
+            </div>
+        </div>
+
+        <!-- Hotels Loading Section (only first load) -->
+        <loading-bars v-if='state.firstLoadingHotels' v-else />
+    </div>
+</div>
+
+
+
+
+
+            </div>
+            <!--end page-content-->
+
+            
+
+            <!--end page-footer-->
+        </div>        
+        <!--end page-wrapper-->
+        <!-- <a href="#page-header" class="to-top scroll" data-show-after-scroll="600"><i class="arrow_up"></i></a> -->
+
+        
+        
+
+        
+
+
+<!-- <script src="/static/js/vendor.min.c4df13f8b76d.js"></script> -->
+<script src="./Js/vue_libs.ddea01f250d6.js"></script>
+<script src="./Js/other_libs.3232e20cf410.js"></script>
+<script src="./Js/legacy_core.4fa60329bda5.js"></script>
+<script src="./Js/legacy_libs.fd2a9a2cf458.js"></script>
+
+
+<script type="text/javascript" src="./Js/common-2db650031bc49470d36d.a2d28f7ab265.js" ></script>
+
+
+
+<script>
+
+    
+    var CURRENT_CURRENCY = 'USD';
+    var SESSION_PUBLIC_KEY = '9806534fdc0bbf6511a827fd6a24006a01dd1f5b';
+    var csrftoken = getCookie('csrftoken');
+    var CSRFTOKEN = getCookie('csrftoken');
+
+    //This function takes in latitude and longitude of two location and returns the distance between them as the crow flies (in km)
+    function pointDistance(lat1, lon1, lat2, lon2) {
+        var R = 6371; // km
+        var dLat = degToRad(lat2-lat1);
+        var dLon = degToRad(lon2-lon1);
+        var lat1 = degToRad(lat1);
+        var lat2 = degToRad(lat2);
+
+        var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+        Math.sin(dLon/2) * Math.sin(dLon/2) * Math.cos(lat1) * Math.cos(lat2); 
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+        var d = R * c;
+        return d;
+    }
+    // Converts numeric degrees to radians
+    function degToRad(Value) {
+        return Value * Math.PI / 180;
+    }
+    function switchCurrency(selectedCurrency = 'USD', updateBE = true){
+        $('#currency_selector').val(selectedCurrency).attr('selected_currency', selectedCurrency);
+        if(updateBE){
+            $.ajax({
+                type : "POST",
+                url: "/users/currency/",
+                headers: {
+                    "X-CSRFTOKEN": csrftoken
+                },
+                cache:false,
+                data: `{"display_currency": "${selectedCurrency}"}`,
+                dataType: "json",
+            }).done(function(data){
+                //console.log(data);
+            }).fail(function(data){
+                //console.log(data);
+            });
+        }else{
+            $('.current_currency_label').text(selectedCurrency);
+        }
+    }
+
+    function checkLuhn(cardNo) {
+        var s = 0;
+        var doubleDigit = false;
+        for (var i = cardNo.length - 1; i >= 0; i--) {
+            var digit = +cardNo[i];
+            if (doubleDigit) {
+                digit *= 2;
+                if (digit > 9)
+                    digit -= 9;
+            }
+            s += digit;
+            doubleDigit = !doubleDigit;
+        }
+        return s % 10 == 0;
+    }
+    function setupPhoneFields(){
+        const phoneInputFields = document.querySelectorAll("input[name='phone']");
+        if(phoneInputFields){
+            phoneInputFields.forEach(element => {
+                const phoneInput = window.intlTelInput(element, {
+                    separateDialCode: "true",
+                });
+            });
+        }
+    }
+    function updatePhoneWithCountryCode(event) {
+        var title = $('.iti__selected-flag').attr('title');
+        if (title) {
+            var countryCode = title.split(': ')[1];
+            var phone = $('#id_phone').val();
+            phoneNumber = phone.replace(/\D/g, "");
+            var countryCodeNum = countryCode.replace(/\D/g, "");
+            var code = phoneNumber.slice(0, countryCodeNum.length);
+            if (countryCodeNum == code) {
+                phoneNumber = `+${phoneNumber}`;
+            } else {
+                phoneNumber = countryCode + phoneNumber;
+            }
+            $('#id_phone').val(phoneNumber);
+        }
+    };
+    function toggleCollapse(selector){
+        event.preventDefault();
+        $(selector).toggleClass('collapse');
+        return false;
+    }
+    function singleSubmit(event, eventName = null, eventPayload = {}){
+        event.preventDefault();
+        if(eventName){
+            axios.post('/logs/event/',
+            {
+                event:eventName,
+                data: eventPayload
+            }).catch(function (error) {
+                console.log(error);
+            }).then((response) => {
+                $(event.target).closest('button').addClass('disabled');
+                $('.loader-overlay').addClass('is-active');
+                $(event.target).closest('form').submit();
+            })
+        }else{
+            $(event.target).closest('button').addClass('disabled');
+            $('.loader-overlay').addClass('is-active');
+            $(event.target).closest('form').submit();
+        }
+        
+    }
+    function setupTrackedClicks(default_payload = {}){
+        $("a[evlink]").click(function(e){
+            e.preventDefault();
+            let link = $(e.target).closest('a');
+            let url = $(link).attr('href');
+            let evname = $(link).attr('evlink');
+            let target = $(link).attr('target');
+            handleClickEvent(url, evname, default_payload, target)
+            return false;
+        });
+    }
+    function handleClickEvent(url, evname, data = {}, target){
+        //submitLogEvent(evname, data);
+        let timeout = 500;
+        if(target){
+            timeout = 0;
+        }
+        /* Delay needed to stop FF from aborting the log event request */
+        setTimeout( function() {
+            if(target){
+                window.open(url, target);
+            }else{
+                window.location.href = url;
+            } 
+        }, timeout);
+             
+    }
+    function safeParseJSON(label, jsonStr, default_value){
+        try {
+            return JSON.parse(jsonStr);
+          } catch (ex) {
+            submitLogEvent('jsonParseFailed', {name:label, msg:ex.message, data:jsonStr});
+            return default_value;
+          }
+    }
+    function submitLogEvent(evname, data = {}){
+        axios.post('/logs/event/',
+            {
+                event:evname,
+                data: data
+        }).catch(function (error) {
+            console.log(error);
+        });
+    }
+    function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                // Does this cookie string begin with the name we want?
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+    $(document).on('ready', function(){
+        switchCurrency(CURRENT_CURRENCY, false);
+        //setupCurrencySwitcher(CURRENT_CURRENCY);
+        $('.currency_selector_wrapper').on('click', function() {
+            console.log('sdfsdfsfd');
+            $('.currency_selector_wrapper ul.options').first().toggle();
+        });
+    
+        // Iterate over each select element
+        $('select#currency_selector').each(function () {
+    
+            // Cache the number of options
+            var $this = $(this),
+                numberOfOptions = $(this).children('option').length;
+    
+            // Hides the select element
+            $this.addClass('s-hidden');
+    
+            // // Wrap the select element in a div
+            // $this.wrap('<div class="select"></div>');
+    
+            // // Insert a styled div to sit over the top of the hidden select element
+            // $this.after('<div class="styledSelect"></div>');
+    
+            // Cache the styled div
+            var $styledSelect = $this.next('a.styledSelect');
+    
+            // Show the first select option in the styled div
+            // $styledSelect.text($this.children('option').eq(0).text());
+    
+            // Insert an unordered list after the styled div and also cache the list
+            var $list = $('<ul />', {
+                'class': 'options currency_selector'
+            }).insertAfter($styledSelect);
+    
+            // Insert a list item into the unordered list for each select option
+            for (var i = 0; i < numberOfOptions; i++) {
+                let val = $this.children('option').eq(i).text(); 
+                let pieces = val.split(' - ');
+                $('<li />', {
+                    html: `${pieces[0]} <span class='currency_name'> - ${pieces[1]}</span>`,
+                    rel: pieces[0]
+                }).appendTo($list);
+            }
+    
+            // Cache the list items
+            var $listItems = $list.children('li');
+    
+            // Show the unordered list when the styled div is clicked (also hides it if the div is clicked again)
+            $styledSelect.click(function (e) {
+                e.stopPropagation();
+                $('div.styledSelect.active').not(this).each(function () {
+                    $(this).removeClass('active').next('ul.options').hide();
+                });
+                $(this).toggleClass('active').next('ul.options').toggle();
+            });
+    
+            // Hides the unordered list when a list item is clicked and updates the styled div to show the selected list item
+            // Updates the select element to have the value of the equivalent option
+            $listItems.click(function (e) {
+                e.stopPropagation();
+                $styledSelect.removeClass('active');
+                $('.current_currency_label').text($(this).attr('rel'));
+                // This is needed for the Vue apps to track changes in currency switching
+                
+                //$this.val($(this).attr('rel'));
+                $list.hide();
+                switchCurrency($(this).attr('rel'));
+                
+                //Collapse the mobile menu
+                $('.navbar-toggle').click()
+                /* alert($this.val()); Uncomment this for demonstration! */
+            });
+    
+            // Hides the unordered list when clicking outside of it
+            $(document).click(function () {
+                $styledSelect.removeClass('active');
+                $list.hide();
+            });
+    
+        });
+    });
+    
+</script>
+<script>
+    function openWidget() {
+        FreshworksWidget('open');
+    }
+
+    const supportBtn = document.querySelector('#support-btn')
+    if(supportBtn){
+        supportBtn.addEventListener('click', () => {
+            FreshworksWidget('hide', 'ticketForm', ['custom_fields.cf_db_booking_id', 'custom_fields.cf_checkin_date', 'custom_fields.cf_checkout_date', 'custom_fields.cf_hotel_name', 'custom_fields.cf_total_value', 'custom_fields.cf_rate_type']);
+            openWidget()
+            FreshworksWidget('prefill', 'ticketForm', {
+                name: " ",
+                email: "",
+                custom_fields: {
+                    cf_bookingconfirmation: "",
+                    cf_contactphone: "",
+                    cf_db_booking_id: "",
+                    cf_checkin_date: "",
+                    cf_checkout_date: "",
+                    cf_hotel_name: "",
+                    cf_rate_type: "",
+                    cf_total_value: ""
+                }
+            });
+        })
+    
+        window.addEventListener('load', () => {
+            FreshworksWidget('hide', 'launcher')
+        })
+    }
+</script>
+<!--
+<script async defer>
+    window.fwSettings = {
+        'widget_id': 69000003290
+    };
+    !function () {
+        if ("function" != typeof window.FreshworksWidget) {
+            var n = function () {
+                n.q.push(arguments)
+            };
+            n.q = [], window.FreshworksWidget = n
+        }
+    }()
+</script>
+<script type='text/javascript' src='https://widget.freshworks.com/widgets/69000003290.js' async defer></script>
+-->
+
+            <script>
+                window.fwSettings={
+                'widget_id':69000004420
+                };
+                !function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}()
+            </script>
+            <script type='text/javascript' src='https://widget.freshworks.com/widgets/69000004420.js' async defer></script>
+            
+
+<!-- production version, optimized for size and speed 
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
+
+
+
+
+
+
+        
+
+<script type="text/javascript" src="./Js/home-2db650031bc49470d36d.5c29a748a454.js" ></script>
+<!-- <script>
+    $(document).ready(function () {
+        console.log("READY");
+
+        //const el = document.querySelector('.form-control.reportrange-text');
+
+        //el.classList.remove("form-control");
+        //el.classList.remove("reportrange-text");
+    });
+</script> -->
+
+<script src="https://kit.fontawesome.com/da07f7dffd.js" crossorigin="anonymous"></script>
+    </body>
+</html>
